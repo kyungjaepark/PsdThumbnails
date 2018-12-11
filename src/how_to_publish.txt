@@ -1,0 +1,4 @@
+1. PsdThumbnailProvider x86 Release DLL 을 빌드해서 PsdThumbnailProvider_x86.dll 으로 이름을 바꾸고, src\PSDThumbnailsSetup\Resources 에 복사
+2. PsdThumbnailProvider x64 Release DLL 을 빌드해서 PsdThumbnailProvider_x64.dll 으로 이름을 바꾸고, src\PSDThumbnailsSetup\Resources 에 복사
+3. 만약 오버레이 아이콘을 변경했다면, src\PSDThumbnailsSetup\Resources 에 PsdOverlayIcon.ico.bin 으로 이름을 바꿔 복사
+4. PSDThumbnailsSetup 을 릴리즈 빌드하고, 결과 exe 파일을 dist 에 복사

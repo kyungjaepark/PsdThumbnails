@@ -6,7 +6,6 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Runtime.InteropServices;
@@ -78,7 +77,8 @@ namespace PSDThumbnailsSetup
             if (Directory.Exists(GetProgramRoot()) == false)
                 Directory.CreateDirectory(GetProgramRoot());
 
-            byte[] dllSource = Environment.Is64BitOperatingSystem ? Resources.PsdThumbnailProvider_x64 : Resources.PsdThumbnailProvider_x86;
+            bool isx64 = Environment.Is64BitOperatingSystem; // Wow.Is64BitOperatingSystem // in .NET 3.5
+            byte[] dllSource = isx64 ? Resources.PsdThumbnailProvider_x64 : Resources.PsdThumbnailProvider_x86;
             try
             {
                 File.WriteAllBytes(GetDllPath(), dllSource);

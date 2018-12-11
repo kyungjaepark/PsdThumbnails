@@ -2,3 +2,11 @@
 2. PsdThumbnailProvider x64 Release DLL 을 빌드해서 PsdThumbnailProvider_x64.dll 으로 이름을 바꾸고, src\PSDThumbnailsSetup\Resources 에 복사
 3. 만약 오버레이 아이콘을 변경했다면, src\PSDThumbnailsSetup\Resources 에 PsdOverlayIcon.ico.bin 으로 이름을 바꿔 복사
 4. PSDThumbnailsSetup 을 릴리즈 빌드하고, 결과 exe 파일을 dist 에 복사
+5. 커밋 & push
+
+Win7 버전 빌드하기
+A. 위 과정(1~5)이 다 끝난 후 진행.
+B. PSDThumbnailsSetup의 대상 프레임워크를 3.5로 변경
+C. FormMain에서 Environment.Is64BitOperatingSystem 부분을 Wow.Is64BitOperatingSystem 로 변경
+D. 빌드 결과를 PSDThumbnailsSetup-Win7.exe 로 이름을 바꿔 dist에 복사
+E. B~D 과정에서 src\PSDThumbnailsSetup 에 생긴 변경점은 커밋하지 말고 되돌리기

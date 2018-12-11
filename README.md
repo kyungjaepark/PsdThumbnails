@@ -1,6 +1,8 @@
 # PsdThumbnails
 PSD 파일을 탐색기에서 편리하게 미리보기 할 수 있는 도구입니다.
 
+![Screenshot](/docs/screenshot.png)
+
 ## 빌드 요구 사항
 - Windows Universal CRT SDK : https://stackoverflow.com/a/43905001
 

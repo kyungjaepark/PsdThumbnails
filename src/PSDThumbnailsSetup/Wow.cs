@@ -6,7 +6,7 @@ using System.Text;
 
 namespace PSDThumbnailsSetup
 {
-    // https://social.msdn.microsoft.com/Forums/vstudio/en-US/24792cdc-2d8e-454b-9c68-31a19892ca53/how-to-check-whether-the-system-is-32-bit-or-64-bit-
+    // Wow class by Tergiver, from https://social.msdn.microsoft.com/Forums/vstudio/en-US/24792cdc-2d8e-454b-9c68-31a19892ca53
     public static class Wow
     {
         public static bool Is64BitProcess

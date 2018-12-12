@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>psd-overlay.ico</ApplicationIcon>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -86,7 +86,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="psd-overlay.ico" />
+    <Content Include="logo.ico" />
     <None Include="Resources\PsdOverlayIcon.ico.bin" />
     <None Include="Resources\PsdThumbnailProvider_x86.dll" />
     <None Include="Resources\PsdThumbnailProvider_x64.dll" />

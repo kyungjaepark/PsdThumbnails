@@ -58,7 +58,7 @@ namespace PSDThumbnailsSetup
 
         private void linkLabelHomepage_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            ProcessStartInfo sInfo = new ProcessStartInfo("https://kyungjaepark.com/");
+            ProcessStartInfo sInfo = new ProcessStartInfo("https://kyungjaepark.com/psdthumbnails");
             Process.Start(sInfo);
         }
 
